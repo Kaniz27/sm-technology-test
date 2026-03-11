@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Landing Hero</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .font-anton {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="m-0 bg-white">
+  <div class="w-full overflow-hidden relative bg-gradient-to-b from-white via-[#f8ecd2] to-[#f3e2bf]">
+
+    <!-- top gray section -->
+    <div class="absolute inset-x-0 top-0 h-[140px] sm:h-[160px] md:h-[175px] bg-gradient-to-b from-white via-[#fdf7ea] to-transparent pointer-events-none"></div>
+
+    <!-- navbar -->
+    <header class="relative z-20 max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-5">
+      <div class="flex items-center justify-between gap-4">
+
+        <!-- logo -->
+        <div class="flex items-center shrink-0">
+          <div class="w-7 h-7 flex items-center justify-center">
+            <svg width="26" height="26" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 15C19 11.6863 21.6863 9 25 9H39C42.3137 9 45 11.6863 45 15V23C45 26.3137 42.3137 29 39 29H25C21.6863 29 19 26.3137 19 23V15Z" stroke="#F5A000" stroke-width="3"/>
+              <path d="M9 25C9 21.6863 11.6863 19 15 19H23C26.3137 19 29 21.6863 29 25V39C29 42.3137 26.3137 45 23 45H15C11.6863 45 9 42.3137 9 39V25Z" stroke="#F5A000" stroke-width="3"/>
+              <path d="M35 25C35 21.6863 37.6863 19 41 19H49C52.3137 19 55 21.6863 55 25V39C55 42.3137 52.3137 45 49 45H41C37.6863 45 35 42.3137 35 39V25Z" stroke="#F5A000" stroke-width="3"/>
+              <path d="M19 41C19 37.6863 21.6863 35 25 35H39C42.3137 35 45 37.6863 45 41V49C45 52.3137 42.3137 55 39 55H25C21.6863 55 19 52.3137 19 49V41Z" stroke="#F5A000" stroke-width="3"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- menu -->
+        <nav class="flex items-center gap-3 sm:gap-5 md:gap-7 lg:gap-9 flex-wrap justify-end">
+          <a href="#" class="text-[11px] font-medium text-[#f5a000]">Services</a>
+          <a href="#" class="text-[11px] font-medium text-[#1a1a1a]">About</a>
+          <a href="#" class="text-[11px] font-medium text-[#1a1a1a]">Contact</a>
+
+          <a
+            href="#"
+            class="h-[34px] px-4 sm:px-5 rounded-full bg-[#f5a000] border border-[#111111] text-white text-[10px] font-semibold flex items-center justify-center shadow-[0_3px_0_#111111] whitespace-nowrap"
+          >
+            Book a Free Consultation
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 md:pt-[70px] pb-14 sm:pb-16 md:pb-[80px]">
+      <div class="relative min-h-[440px] sm:min-h-[500px] md:min-h-[520px] flex items-center justify-center">
+
+        <!-- left floating card -->
+        <div class="hidden md:block absolute left-[10px] top-[220px] -rotate-[15deg]">
+          <div class="w-[118px] bg-white rounded-[16px] px-3 py-3 shadow-[0_20px_35px_rgba(0,0,0,0.12)]">
+            <p class="text-[8px] font-semibold text-[#202020] mb-3">Total Incomes</p>
+
+            <div class="h-[48px] flex items-end justify-between gap-[6px]">
+              <div class="w-[9px] h-[28px] bg-[#eeeeee] rounded-full"></div>
+              <div class="w-[9px] h-[36px] bg-[#eeeeee] rounded-full"></div>
+              <div class="w-[9px] h-[22px] bg-[#eeeeee] rounded-full"></div>
+              <div class="w-[9px] h-[40px] bg-[#f5a000] rounded-full"></div>
+              <div class="w-[9px] h-[33px] bg-[#eeeeee] rounded-full"></div>
+              <div class="w-[9px] h-[44px] bg-[#eeeeee] rounded-full"></div>
+            </div>
+
+            <div class="mt-2 flex justify-between text-[5px] text-[#8c8c8c] px-[1px]">
+              <span>20</span>
+              <span>30</span>
+              <span>40</span>
+              <span>50</span>
+              <span>60</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- right floating rating card -->
+        <div class="hidden md:block absolute right-[30px] top-[220px] rotate-[12deg]">
+          <div class="w-[132px] h-[62px] bg-white rounded-[16px] px-3 py-3 shadow-[0_20px_35px_rgba(0,0,0,0.12)] flex items-center justify-between">
+            <div class="flex -space-x-2">
+              <img class="w-6 h-6 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80" alt="">
+              <img class="w-6 h-6 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="">
+              <img class="w-6 h-6 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=80&q=80" alt="">
+            </div>
+
+            <div class="leading-none text-right">
+              <div class="text-[18px] font-extrabold text-[#171717]">
+                45k<span class="text-[10px] font-bold ml-[2px]">+ Users</span>
+              </div>
+              <div class="text-[8px] text-[#444444] mt-[4px]">★ 4.7 Rating</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- main content -->
+        <div class="text-center max-w-[760px] w-full px-2">
+
+          <!-- mini badge line -->
+          <div class="flex items-center justify-center gap-2 mb-5 sm:mb-6 flex-wrap">
+            <div class="bg-[#f5a000] text-white text-[12px] font-bold rounded-[4px] px-3 py-[2px] leading-none">
+              a<span class="text-[8px] align-super">.</span>
+            </div>
+            <p class="text-[10px] sm:text-[11px] text-[#2a2a2a] font-medium">
+              Your Full-Service <span class="text-[#f5a000]">Amazon Partner</span>
+            </p>
+          </div>
+
+          <!-- headline -->
+          <h1 class="font-anton text-[#171717] text-[34px] sm:text-[42px] md:text-[56px] leading-[1] tracking-[0.2px]">
+            Turn Your Amazon Struggles
+            <br class="hidden sm:block" />
+            into Success—Save Time,
+            <br class="hidden sm:block" />
+            <span class="text-[#f5a000]">Maximize Profits!</span>
+          </h1>
+
+          <!-- cta -->
+          <div class="mt-6 flex justify-center">
+            <a
+              href="#"
+              class="h-[40px] px-6 sm:px-7 rounded-full bg-[#f5a000] border border-[#111111] text-white text-[10px] font-semibold flex items-center justify-center shadow-[0_3px_0_#111111] whitespace-nowrap"
+            >
+              Book a Free Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- stats -->
+  <section class="w-full bg-[#f5f5f5] py-14 sm:py-16">
+    <div class="max-w-[1100px] mx-auto px-4 sm:px-6">
+      <h2 class="text-center text-[18px] sm:text-[20px] font-semibold text-[#2b2b2b] mb-8 sm:mb-10">
+        Amazon Market Statistics Worldwide 2024
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+        <div class="bg-white border border-[#e6e6e6] rounded-[10px] p-5 sm:p-6 text-center">
+          <h3 class="text-[26px] sm:text-[30px] font-bold text-[#2b2b2b]">600 million</h3>
+          <p class="text-[12px] text-[#6b6b6b] mt-2">Amazon Offers Over Products</p>
+        </div>
+
+        <div class="bg-white border border-[#e6e6e6] rounded-[10px] p-5 sm:p-6 text-center">
+          <h3 class="text-[26px] sm:text-[30px] font-bold text-[#2b2b2b] break-words">$638.0 billion</h3>
+          <p class="text-[12px] text-[#6b6b6b] mt-2">Amazon Global Net Sales Revenue</p>
+        </div>
+
+        <div class="bg-white border border-[#e6e6e6] rounded-[10px] p-5 sm:p-6 text-center">
+          <h3 class="text-[26px] sm:text-[30px] font-bold text-[#2b2b2b]">11.95 million</h3>
+          <p class="text-[12px] text-[#6b6b6b] mt-2">Amazon Handles Orders Daily.</p>
+        </div>
+
+        <div class="bg-white border border-[#e6e6e6] rounded-[10px] p-5 sm:p-6 text-center">
+          <h3 class="text-[26px] sm:text-[30px] font-bold text-[#2b2b2b] break-words">$1.6 billion</h3>
+          <p class="text-[12px] text-[#6b6b6b] mt-2">Amazon Average Daily Sales Revenue</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- story -->
+<section class="w-full bg-[#f3f3f3] py-10">
+  <div class="max-w-[1200px] mx-auto px-4">
+    <div class="max-w-[560px] mx-auto text-center">
+
+      <!-- top mini badge -->
+      <div class="flex items-center justify-center gap-[6px] mb-2">
+        <div class="bg-[#f5a000] text-white text-[9px] font-bold rounded-[3px] px-[6px] py-[1px] leading-none">
+          a<span class="text-[6px] align-super">.</span>
+        </div>
+        <p class="text-[#d89a17] text-[9px] font-medium leading-none">
+          Struggling With Amazon Sales?
+        </p>
+      </div>
+
+      <!-- heading -->
+      <h2 class="font-['Anton'] text-[#222222] text-[28px] leading-[0.95] tracking-[0.2px]">
+  Struggling With Amazon Sales? Let’s Scale Your<br>
+  Business—<span class="text-[#f5a000]">Faster, Smarter,</span> &amp; Stress-Free!
+</h2>
+
+      <!-- sub text -->
+      <p class="mt-3 max-w-[460px] mx-auto text-[10px] leading-[1.5] text-[#6b6b6b]">
+        From product launch to account growth, FINTRIXX crafts a tailored strategy
+        to increase visibility, boost sales, and maximize profit—without wasted ad spend.
+        Let us handle the Amazon chaos while you scale with confidence.
+      </p>
+
+      <!-- button -->
+      <div class="mt-4">
+        <a
+          href="#"
+          class="inline-flex items-center justify-center h-[32px] px-6 rounded-full bg-[#f5a000] border border-[#d79100] text-white text-[10px] font-semibold shadow-[0_2px_0_#c78300]"
+        >
+          Book a Free Strategy Call
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- 5 -->
+  <section class="w-full bg-[#0b0b0b] py-8 md:py-12 lg:py-16 overflow-hidden">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10">
+    <div class="min-h-[420px] lg:min-h-[470px] flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-4">
+      
+      <!-- Left Content -->
+      <div class="w-full lg:w-[44%] flex justify-center lg:justify-start">
+        <div class="max-w-[430px] text-center lg:text-left">
+          
+          <!-- Top badge -->
+          <div class="flex items-center justify-center lg:justify-start gap-2 mb-4">
+            <div class="bg-[#f5a000] text-white text-[10px] font-bold rounded-[4px] px-3 py-[2px] leading-none">
+              a<span class="text-[7px] align-super">.</span>
+            </div>
+            <p class="text-[#d19a22] text-[11px] font-medium">Why Choose Us</p>
+          </div>
+
+          <!-- Heading -->
+          <h2 class="font-['Anton'] text-white text-[42px] sm:text-[52px] lg:text-[58px] leading-[0.95] tracking-[0.2px]">
+            Why Choose <span class="text-[#f5a000]">FINTRIXX?</span>
+          </h2>
+
+          <!-- Description -->
+          <p class="mt-4 text-[#cfcfcf] text-[12px] sm:text-[13px] leading-[1.7] max-w-[390px] mx-auto lg:mx-0">
+            Amazon is tough—we make it easy. At FINTRIXX, we help sellers rank higher, scale faster,
+            &amp; sell smarter. We analyze trends, optimize ads, manage inventory, &amp; protect your
+            account so you can focus on your business.
+            <br />
+            🚀 No more guesswork. No more wasted money. Just real results.
+          </p>
+
+          <!-- Button -->
+          <div class="mt-7">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center h-[42px] px-6 rounded-full bg-[#f5a000] border border-white text-white text-[11px] font-semibold shadow-[0_2px_0_rgba(255,255,255,0.35)]"
+            >
+              Book a Free Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="w-full lg:w-[56%] relative flex items-center justify-center min-h-[360px] lg:min-h-[430px]">
+        
+        <!-- Decorative slanted bars -->
+        
+
+        <!-- Feature cards -->
+        <div class="relative lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 mt-8 lg:mt-0 flex justify-center items-center">
+  <img src="/image/Container.png" alt="image" class="w-full max-w-[420px] object-contain" />
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- 6 -->
+  <section class="w-full bg-white py-10 md:py-14">
+  <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Top Heading Box -->
+    <div class=" bg-[#f6f6f6] px-4 py-5 sm:px-6 md:px-8 md:py-6">
+      <!-- Mini Badge -->
+      <div class="flex items-center justify-center gap-[6px] mb-3">
+        <div class="bg-[#f5a000] text-white text-[11px] sm:text-[12px] font-bold rounded-[3px] px-[7px] py-[1px] leading-none">
+          a<span class="text-[7px] align-super">.</span>
+        </div>
+        <p class="text-[10px] sm:text-[11px] text-[#f5a000] leading-none">
+          Our Services
+        </p>
+      </div>
+
+      <!-- Title -->
+      <h2 class="text-center font-['Anton'] text-[#1f1f1f] text-[34px] leading-none sm:text-[42px] md:text-[54px]">
+        Scale Smarter, <span class="text-[#f5a000]">Sell Faster</span>
+      </h2>
+
+      <!-- Subtitle -->
+      <p class="mt-2 text-center text-[11px] sm:text-[12px] md:text-[13px] text-[#444444] leading-snug">
+        We handle everything Amazon so you can focus on growing.
+      </p>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="mt-8  bg-[#f6f6f6]">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        
+        <!-- Card 1 -->
+        <div class="min-h-[190px] border-b border-[#e5e5e5] md:border-r md:border-b px-5 py-5 sm:px-6 sm:py-6">
+          <div class="flex items-start justify-between gap-4">
+            <div class="w-full">
+              <h3 class="text-[#f5a000] text-[14px] sm:text-[15px] font-medium leading-none">
+                Amazon Growth & Advertising
+              </h3>
+
+              <div class="w-[2px] h-10 bg-[#f3c56b] mt-4 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Bid & Budget Optimization — Higher ROI, lower ACOS.
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Monthly PPC Strategy — Tailored for long-term growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="shrink-0 pt-1 text-[34px] sm:text-[40px] leading-none">
+              🚀
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="min-h-[190px] border-b border-[#e5e5e5] px-5 py-5 sm:px-6 sm:py-6">
+          <div class="flex items-start justify-between gap-4">
+            <div class="w-full">
+              <h3 class="text-[#f5a000] text-[14px] sm:text-[15px] font-medium leading-none">
+                SEO & Product Ranking
+              </h3>
+
+              <div class="w-[2px] h-10 bg-[#f3c56b] mt-4 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Organic & Sponsored Ranking — More visibility, more sales
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Keyword & Competitor Analysis — Stay ahead of the competition.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="shrink-0 pt-1 text-[34px] sm:text-[40px] leading-none">
+              📈
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="min-h-[190px] border-b border-[#e5e5e5] md:border-b-0 md:border-r px-5 py-5 sm:px-6 sm:py-6">
+          <div class="flex items-start justify-between gap-4">
+            <div class="w-full">
+              <h3 class="text-[#f5a000] text-[14px] sm:text-[15px] font-medium leading-none">
+                Inventory & Account Management
+              </h3>
+
+              <div class="w-[2px] h-10 bg-[#f3c56b] mt-4 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Inventory Forecasting & Restocking — No stockouts, no overstocking.
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Amazon Account Health & Compliance — Avoid suspensions & violations.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="shrink-0 pt-1 text-[34px] sm:text-[40px] leading-none">
+              📦
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="min-h-[190px] px-5 py-5 sm:px-6 sm:py-6">
+          <div class="flex items-start justify-between gap-4">
+            <div class="w-full">
+              <h3 class="text-[#f5a000] text-[14px] sm:text-[15px] font-medium leading-none">
+                Scaling & Expansion
+              </h3>
+
+              <div class="w-[2px] h-10 bg-[#f3c56b] mt-4 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    Launching New Products — Market research-backed success.
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <span class="mt-[2px] inline-flex h-4 w-4 items-center justify-center rounded-full border border-[#f5a000] text-[#f5a000] text-[10px] leading-none">
+                    ✓
+                  </span>
+                  <p class="text-[12px] sm:text-[13px] text-[#4a4a4a] leading-[1.5]">
+                    International Expansion — Sell beyond borders with ease.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="shrink-0 pt-1 text-[34px] sm:text-[40px] leading-none">
+              🌍
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section -7 -->
+ <section class="w-full bg-[#0b0b0d] px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20 overflow-hidden">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+      
+      <!-- Left Images -->
+      <div class="flex justify-center lg:justify-start">
+        <div class="flex items-end gap-4 sm:gap-5 md:gap-6">
+          
+          <!-- Image 1 -->
+          <div class="w-[130px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[220px] sm:h-[270px] md:h-[320px] lg:h-[350px] rounded-[12px] overflow-hidden shadow-lg">
+            <img
+              src="/image/image.png"
+              alt="Growth analytics"
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <!-- Image 2 -->
+          <div class="w-[150px] sm:w-[180px] md:w-[210px] lg:w-[230px] h-[180px] sm:h-[220px] md:h-[250px] lg:h-[280px] rounded-[12px] overflow-hidden shadow-lg -ml-2 sm:ml-0">
+            <img
+              src="/image/image (1).png"
+              alt="Growth concept"
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Content -->
+      <div class="text-white">
+        <h2 class="text-[34px] sm:text-[42px] md:text-[52px] lg:text-[56px] font-extrabold leading-none mb-8">
+          Our <span class="text-[#f4a000]">Approach</span>
+        </h2>
+
+        <!-- Mission -->
+        <div class="border-b border-white/10 pb-4 mb-4">
+          <h3 class="text-white text-[15px] sm:text-[16px] font-semibold flex items-center gap-2">
+            <span class="text-[14px]">📌</span>
+            Mission
+          </h3>
+        </div>
+
+        <!-- Vision -->
+        <div class="border-l-2 border-[#f4a000] pl-4 sm:pl-5 md:pl-6">
+          <h3 class="text-white text-[15px] sm:text-[16px] font-semibold flex items-center gap-2 mb-4">
+            <span class="text-[14px]">🌍</span>
+            Vision
+          </h3>
+
+          <p class="text-white/75 text-[12px] sm:text-[13px] md:text-[14px] leading-6 max-w-[560px]">
+            Founded in 1983, SecureWealth was created to address the challenges of traditional
+            banking—long queues, complicated processes, and limited access. We started with a
+            vision to make banking simple, accessible, and convenient for everyone. Today, we
+            proudly serve 7+ million users, helping them manage their finances with ease.
+          </p>
+
+          <div class="mt-6">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center rounded-full bg-[#f4a000] px-5 sm:px-6 py-2.5 sm:py-3 text-[12px] sm:text-[13px] font-semibold text-white shadow-md transition hover:bg-[#db9200]"
+            >
+              Book a Free Strategy Call
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section-8 -->
+ <section class="w-full bg-[#f3f3f3] px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+  <div class="max-w-6xl mx-auto text-center">
+    
+    <!-- Top mini brand -->
+    <div class="flex items-center justify-center gap-2 mb-4 sm:mb-5">
+      <div class="bg-[#f59e0b] text-white text-[9px] sm:text-[10px] font-bold px-2 py-[2px] rounded-md leading-none">
+        a
+      </div>
+      <span class="text-[9px] sm:text-[10px] font-medium text-[#c97a00] tracking-[0.2px]">
+        Growth Business
+      </span>
+    </div>
+
+    <!-- Heading -->
+    <h2 class="text-[#1f1f1f] font-extrabold leading-tight text-[28px] sm:text-[38px] md:text-[48px] lg:text-[56px] max-w-3xl mx-auto">
+      The Harsh Reality of <br class="hidden sm:block" />
+      Selling on <span class="text-[#f59e0b]">Amazon</span>
+    </h2>
+
+    <!-- Sub heading -->
+    <p class="mt-3 sm:mt-4 text-[12px] sm:text-[13px] md:text-[14px] text-[#555] leading-6 max-w-2xl mx-auto">
+      Selling on Amazon is tough. Do these struggles sound familiar? Without the
+      right strategy, you're losing money, time, and opportunities.
+    </p>
+
+    <!-- Cards -->
+    <div class="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+      
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Lost in Competition?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          10M+ sellers & 350M+ product how do you stand out?
+        </p>
+      </div>
+
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Burning Cash on Ads?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          PPC feels like a money pit with no returns.
+        </p>
+      </div>
+
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Low Rankings?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          Amazon’s complex algorithms keep changing.
+        </p>
+      </div>
+
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Inventory Headaches?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          Stockouts, overstocking, at the wrong time?
+        </p>
+      </div>
+
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Risk of Account Suspension?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          Amazon’s strict policies make selling stressful.
+        </p>
+      </div>
+
+      <div class="bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 sm:p-6 text-left min-h-[120px]">
+        <h3 class="text-[#f59e0b] text-[13px] sm:text-[14px] font-semibold mb-3">
+          Wasting Time & Getting Stuck?
+        </h3>
+        <div class="w-[2px] h-7 bg-[#f3d7aa] mb-4"></div>
+        <p class="text-[12px] sm:text-[13px] text-[#444] leading-5">
+          Managing it all alone is overwhelming.
+        </p>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="mt-8 sm:mt-10">
+      <a
+        href="#"
+        class="inline-flex items-center justify-center bg-[#f59e0b] hover:bg-[#e68900] text-white text-[12px] sm:text-[13px] font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-full transition duration-300"
+      >
+        Tik to an Expert
+      </a>
+    </div>
+  </div>
+</section>
+<!-- section-8 -->
+ <section class="w-full bg-[#050505] px-4 sm:px-6 lg:px-8 py-10 sm:py-14 lg:py-16">
+  <div class="max-w-[1180px] mx-auto">
+    
+    <!-- Top Content Box -->
+    <div class="  px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12 text-center max-w-[1080px] mx-auto">
+      <!-- Brand -->
+      <div class="flex items-center justify-center gap-2 mb-4 sm:mb-5">
+        <div class="bg-[#f5a000] text-white text-[9px] sm:text-[10px] font-bold px-2 py-[2px] rounded-md leading-none">
+          a
+        </div>
+        <span class="text-[#d6a040] text-[9px] sm:text-[10px] font-medium leading-none">
+          Growth Business
+        </span>
+      </div>
+
+      <!-- Heading -->
+      <h2 class="text-white font-extrabold leading-[1.05] text-[30px] sm:text-[42px] md:text-[52px] lg:text-[58px] tracking-[-0.02em]">
+        How We Help You <br />
+        Win on <span class="text-[#f5a000]">Amazon</span>
+      </h2>
+
+      <!-- Subtext -->
+      <p class="mt-4 sm:mt-5 text-white/80 text-[11px] sm:text-[12px] md:text-[13px] leading-5 sm:leading-6 max-w-[360px] mx-auto">
+        At FINTRIX®, we don't guess—we use data-driven
+        strategies to scale your business.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[10px] sm:gap-4 max-w-[1080px] mx-auto">
+      
+      <!-- Card 1 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Make You Stand Out
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          Targeted marketing to reach the right buyers.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Fix Your Rankings
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          SEO, keywords & ads for visibility.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Optimize Your Ads
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          No wasted budget—only high ROI advertising.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Manage Your Inventory
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          So you never run out of stock or overstock.
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Keep Your Account Safe
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          Avoid suspensions, policy violations & account risks.
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-[#1f1f1f] rounded-[10px] px-4 sm:px-5 py-5 sm:py-6 min-h-[120px] sm:min-h-[132px]">
+        <h3 class="text-[#f5a000] text-[12px] sm:text-[13px] font-semibold leading-tight">
+          We Scale Your Business
+        </h3>
+        <div class="w-[2px] h-7 bg-[#7f6226] mt-3 mb-4"></div>
+        <p class="text-white/80 text-[11px] sm:text-[12px] leading-5">
+          Expansion, market entry & growth.
+        </p>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="flex justify-center mt-8 sm:mt-10 md:mt-12">
+      <a
+        href="#"
+        class="inline-flex items-center justify-center rounded-full bg-[#f5a000] px-6 sm:px-7 py-2.5 sm:py-3 text-white text-[11px] sm:text-[12px] font-semibold leading-none shadow-[0_0_0_2px_#1797ff] transition duration-300 hover:bg-[#df9100]"
+      >
+        Talk to an Expert
+      </a>
+    </div>
+  </div>
+</section>
+<!-- calender section -->
+ <section class="w-full bg-white py-8 md:py-12">
+  <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+
+```
+<!-- Top Heading Box -->
+<div class="max-w-[1120px] mx-auto bg-[#f7f7f7] px-4 py-5 sm:px-6 md:px-8 md:py-6">
+  <div class="flex items-center justify-center gap-2 mb-3">
+    <div class="bg-[#f5a000] text-white text-[10px] font-bold rounded-[4px] px-3 py-[2px] leading-none">
+      a<span class="text-[7px] align-super">.</span>
+    </div>
+    <p class="text-[#d19a22] text-[10px] sm:text-[11px] font-medium">Contact Us</p>
+  </div>
+
+  <h2 class="text-center font-['Anton'] text-[#1b1b1b] text-[36px] sm:text-[46px] md:text-[54px] leading-[0.95] tracking-[0.2px]">
+    Let’s Scale Your <span class="text-[#f5a000]">Business!</span>
+  </h2>
+
+  <p class="mt-2 text-center text-[11px] sm:text-[12px] text-[#555555]">
+    Book a free strategy session &amp; let’s grow your Amazon brand.
+  </p>
+</div>
+
+<!-- Main Booking Box -->
+<div class="relative max-w-[1120px] mx-auto mt-6 bg-white shadow-sm">
+
+  <!-- Corner Ribbon -->
+  <div class="hidden md:flex absolute top-0 right-0 z-10">
+    <div class="relative overflow-hidden w-[84px] h-[84px]">
+      <div class="absolute top-[16px] right-[-28px] rotate-45 bg-[#5d5d5d] text-white text-[9px] font-medium px-8 py-[4px] shadow">
+        Powered by
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-[1.05fr_1fr]">
+
+    <!-- Left Content -->
+    <div class="relative px-5 py-6 sm:px-7 md:px-8 border-b lg:border-b-0 lg:border-r border-[#e7e7e7]">
+
+      <p class="text-[11px] text-[#8b8b8b] mb-2">Naim</p>
+
+      <h3 class="text-[#253046] text-[26px] sm:text-[30px] leading-[1.05] font-semibold max-w-[360px]">
+        Book Your Strategy
+        <br />
+        Session: Accelerate Your
+        <br />
+        Growth!
+      </h3>
+
+      <div class="mt-8 space-y-4">
+        <div class="flex items-center gap-3">
+          <div class="w-4 h-4 rounded-full flex items-center justify-center">
+            <div class="w-[6px] h-[6px] rounded-full bg-[#999999]"></div>
+          </div>
+          <div class="flex items-center gap-2 text-[13px] text-[#6a6a6a]">
+            <span>30 min</span>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <div class="mt-[2px] w-4 h-4 rounded-[2px]"></div>
+          <p class="text-[12px] leading-[1.6] text-[#6a6a6a] max-w-[320px]">
+            Web conferencing details provided upon confirmation.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-24 text-[11px] text-[#4a76c9]">
+        <a href="#">Cookie settings</a>
+      </div>
+    </div>
+
+    <!-- Right Calendar -->
+    <div class="px-5 py-6 sm:px-7 md:px-8">
+      <h3 class="text-center text-[22px] sm:text-[24px] font-semibold text-[#24324a]">
+        Select a Date &amp; Time
+      </h3>
+
+      <!-- Month Nav -->
+      <div class="mt-6 flex items-center justify-center gap-8 text-[#7b8797]">
+        <button class="w-8 h-8 rounded-full flex items-center justify-center text-[18px] hover:bg-[#f5f7fb]">‹</button>
+
+        <div class="text-[14px] sm:text-[15px] font-medium text-[#5b6778]">
+          March 2025
+        </div>
+
+        <button class="w-8 h-8 rounded-full flex items-center justify-center text-[18px] bg-[#eef4ff] text-[#6f98ff] hover:bg-[#e4eeff]">›</button>
+      </div>
+
+      <!-- Days -->
+      <div class="mt-6 grid grid-cols-7 gap-y-4 text-center text-[13px]">
+
+        <div class="text-[10px] font-medium text-[#7c8798]">MON</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">TUE</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">WED</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">THU</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">FRI</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">SAT</div>
+        <div class="text-[10px] font-medium text-[#7c8798]">SUN</div>
+
+        <div></div><div></div><div></div>
+        <div class="text-[#757575]">1</div>
+        <div class="text-[#757575]">2</div>
+
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#e9f1ff] text-[#7da3ff] flex items-center justify-center">6</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#e9f1ff] text-[#7da3ff] flex items-center justify-center">7</div>
+
+        <div class="text-[#757575]">3</div>
+        <div class="text-[#757575]">4</div>
+        <div class="text-[#757575]">5</div>
+        <div class="text-[#757575]">8</div>
+        <div class="text-[#757575]">9</div>
+
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#2f7cf6] text-white flex items-center justify-center">10</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">13</div>
+
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">17</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">18</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">19</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">20</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">21</div>
+
+        <div class="text-[#757575]">22</div>
+        <div class="text-[#757575]">23</div>
+
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">24</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">25</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">26</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">27</div>
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">28</div>
+
+        <div class="text-[#757575]">29</div>
+        <div class="text-[#757575]">30</div>
+
+        <div class="w-8 h-8 mx-auto rounded-full bg-[#dfeaff] text-[#2f7cf6] flex items-center justify-center">31</div>
+      </div>
+
+      <!-- Timezone -->
+      <div class="mt-8">
+        <p class="text-[13px] font-semibold text-[#24324a] mb-2">Time zone</p>
+        <div class="inline-flex items-center gap-2 text-[12px] text-[#6f7480]">
+          <span>🌐</span>
+          <span>Asia/Dhaka (03:00pm)</span>
+          <span>▾</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom tiny footer -->
+  <div class="px-4 py-2 text-center text-[10px] text-[#9aa0aa]">
+    © Powered by Calendly
+  </div>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- footer -->
+ <footer class="w-full bg-[#050505] px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+  <div class="max-w-[1200px] mx-auto ">
+    
+    <div class="px-4 sm:px-6 md:px-8 lg:px-10 pt-5 sm:pt-6 md:pt-7 pb-4 sm:pb-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 items-start">
+        
+        <!-- Left -->
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="bg-[#f5a000] text-white text-[9px] sm:text-[10px] font-bold px-2 py-[2px] rounded leading-none">
+              a
+            </div>
+            <span class="text-[#d6a040] text-[9px] sm:text-[10px] font-medium leading-none">
+              Growth Business
+            </span>
+          </div>
+
+          <p class="max-w-[280px] text-white/75 text-[10px] sm:text-[11px] leading-[1.6]">
+            FINTRIX® — We make brands shine from ads, SEO, social media
+            management support, B2B PPC, and graphic design.
+          </p>
+        </div>
+
+        <!-- Center -->
+        <div class="lg:mx-auto">
+          <h3 class="text-white text-[11px] sm:text-[12px] font-semibold mb-3 sm:mb-4">
+            Menu
+          </h3>
+
+          <ul class="space-y-2 sm:space-y-2.5">
+            <li>
+              <a href="#" class="text-white/70 text-[10px] sm:text-[11px] hover:text-white transition">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white/70 text-[10px] sm:text-[11px] hover:text-white transition">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white/70 text-[10px] sm:text-[11px] hover:text-white transition">
+                Service
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white/70 text-[10px] sm:text-[11px] hover:text-white transition">
+                My Successes Ads
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white/70 text-[10px] sm:text-[11px] hover:text-white transition">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right -->
+        <div class="lg:ml-auto">
+          <h3 class="text-white text-[11px] sm:text-[12px] font-semibold mb-3 sm:mb-4">
+            Contact us
+          </h3>
+
+          <div class="space-y-2.5">
+            <div class="flex items-start gap-2">
+              <span class="text-white/70 text-[10px] sm:text-[11px] leading-none mt-[2px]">✉</span>
+              <a
+                href="mailto:hello@startup.com"
+                class="text-white/70 text-[10px] sm:text-[11px] break-all hover:text-white transition"
+              >
+                hello@startup.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="border-t border-white/10 px-4 sm:px-6 md:px-8 lg:px-10 py-3">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-4 text-center sm:text-left">
+        <p class="text-white/55 text-[9px] sm:text-[10px]">
+          © 2024 Copyright Fintrix
+        </p>
+
+        <div class="flex items-center gap-3 sm:gap-5">
+          <a href="#" class="text-white/55 text-[9px] sm:text-[10px] hover:text-white transition">
+            Privacy Policy
+          </a>
+          <a href="#" class="text-white/55 text-[9px] sm:text-[10px] hover:text-white transition">
+            Terms Of Service
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
